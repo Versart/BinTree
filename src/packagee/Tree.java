@@ -97,7 +97,7 @@ public class Tree<T extends Comparable> {
                                father2.setLeft(null);
                            else
                                father2.setRight(null);
-                            aux2.setLeft(aux2.getLeft());
+                            aux2.setLeft(aux.getLeft());
                             aux2.setRight(aux.getRight());
                         }
                         else{
