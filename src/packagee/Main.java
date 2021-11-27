@@ -6,7 +6,6 @@
 package packagee;
 
 /**
- *
  * @author wesle
  */
 public class Main {
@@ -19,12 +18,14 @@ public class Main {
         tree.addNode(40);
         tree.addNode(30);
         tree.addNode(36);
-        //tree.addNode(9);
+        System.out.println("***************************");
         tree.inOrder(tree.getRoot());
-        //tree.preOrder(tree.getRoot());
-        //tree.posOrder(tree.getRoot());
+        System.out.println("***************************");
+        tree.preOrder(tree.getRoot());
+        System.out.println("***************************");
+        tree.posOrder(tree.getRoot());
         tree.deleteNode(40);
-        System.out.println("-----------");
+        System.out.println("***************************");
         tree.inOrder(tree.getRoot());
 
     }

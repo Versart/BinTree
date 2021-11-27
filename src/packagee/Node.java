@@ -6,7 +6,6 @@
 package packagee;
 
 /**
- *
  * @author wesle
  */
 public class Node<T> {
